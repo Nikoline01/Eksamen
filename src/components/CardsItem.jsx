@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import HOF from "/src/assets/HOF.png";
 
 export default function CardsItem() {
   return (
     <li className="cards-item">
       <Link to="/Project" className="cards-item-link">
-        <img src="/src/assets/HOF.png" alt="HOF"></img>
+        <img src={HOF} alt="HOF" />
         <p>HOLM OUTDOOR FITNESS</p>
       </Link>
       <Link to="/Project" className="cards-item-link">
