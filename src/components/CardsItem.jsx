@@ -16,7 +16,7 @@ export default function CardsItem() {
         <p>NIPPON</p>
       </Link>
       <Link to="/Project" className="cards-item-link">
-        <img src="./src/assets/MONK.png" alt="MONK"></img>
+        <img src="/Eksamen/src/assets/MONK.png" alt="MONK"></img>
         <p>MONK</p>
       </Link>
     </li>
