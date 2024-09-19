@@ -4,7 +4,7 @@ export default function CardsItem() {
   return (
     <li className="cards-item">
       <Link to="/Project" className="cards-item-link">
-        <img src="/public/HOF.png" alt="STORYTELLING"></img>
+        <img src="/Eksamen/src/assets/HOF.png" alt="HOF"></img>
         <p>HOLM OUTDOOR FITNESS</p>
       </Link>
       <Link to="/Project" className="cards-item-link">
