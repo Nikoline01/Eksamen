@@ -1,5 +1,5 @@
-import mail from "./src/assets/mail.webp";
-import linkedIn from "./src/assets/linkedIn.webp";
+import mail from "/src/assets/mail.webp";
+import linkedIn from "/src/assets/linkedin.webp";
 
 export default function Footer() {
   return (
