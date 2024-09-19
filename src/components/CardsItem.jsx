@@ -12,11 +12,11 @@ export default function CardsItem() {
         <p>INTERACTIVE STORYTELLING</p>
       </Link>
       <Link to="/Project" className="cards-item-link">
-        <img src="./src/assets/NIPPON.png" alt="NIPPON"></img>
+        <img src="/src/assets/NIPPON.png" alt="NIPPON"></img>
         <p>NIPPON</p>
       </Link>
       <Link to="/Project" className="cards-item-link">
-        <img src="/Eksamen/src/assets/MONK.png" alt="MONK"></img>
+        <img src="/src/assets/MONK.png" alt="MONK"></img>
         <p>MONK</p>
       </Link>
     </li>
