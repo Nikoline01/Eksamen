@@ -1,3 +1,5 @@
+import video from "/src/assets/Gradient-kopi.mp4";
+
 export default function HomePage() {
   const handleVideoClick = () => {
     console.log("Video clicked!");
@@ -12,7 +14,7 @@ export default function HomePage() {
         loop
         onClick={handleVideoClick}
       >
-        <source src="./src/assets/Gradient-kopi.mp4" type="video/mp4" />
+        <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
