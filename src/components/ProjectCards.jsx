@@ -1,3 +1,8 @@
+import HOF from "/src/assets/HOF.png";
+import IS from "/src/assets/IS.png";
+import NIPPON from "/src/assets/NIPPON.png";
+import MONK from "/src/assets/MONK.png";
+
 export default function ProjectCards() {
   return (
     <div className="projects">
@@ -22,7 +27,7 @@ export default function ProjectCards() {
             </p>
           </div>
           <div className="project-info-photo">
-            <img src="./src/assets/HOF.png" alt="Holm Outdoor Fitness" />
+            <img src={HOF} alt="Holm Outdoor Fitness" />
           </div>
         </div>
         <div className="project-info">
@@ -41,7 +46,7 @@ export default function ProjectCards() {
             </p>
           </div>
           <div className="project-info-photo">
-            <img src="./src/assets/IS.png" alt="Interactive storytelling" />
+            <img src={IS} alt="Interactive storytelling" />
           </div>
         </div>
         <div className="project-info">
@@ -62,7 +67,7 @@ export default function ProjectCards() {
             </p>
           </div>
           <div className="project-info-photo">
-            <img src="./src/assets/NIPPON.png" alt="Nippon" />
+            <img src={NIPPON} alt="Nippon" />
           </div>
         </div>
         <div className="project-info">
@@ -78,7 +83,7 @@ export default function ProjectCards() {
             </p>
           </div>
           <div className="project-info-photo">
-            <img src="./src/assets/MONK.png" alt="Monk" />
+            <img src={MONK} alt="Monk" />
           </div>
         </div>
       </div>

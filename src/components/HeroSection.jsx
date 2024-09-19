@@ -1,4 +1,5 @@
 import video from "/src/assets/Gradient-kopi.mp4";
+import pil from "/src/assets/pil.png";
 
 export default function HomePage() {
   const handleVideoClick = () => {
@@ -22,7 +23,7 @@ export default function HomePage() {
         <h1 className="video-title">PORTFOLIO</h1>
         <p className="video-title-two">MULTIMEDIADESIGN</p>
         <div className="pil">
-          <img src="./src/assets/pil.png"></img>
+          <img src={pil}></img>
         </div>
       </div>
     </div>

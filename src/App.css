@@ -383,6 +383,7 @@ body {
 
   .pil img {
     max-width: 5%;
+    padding-bottom: 30px;
   }
 
   .text-content p {
