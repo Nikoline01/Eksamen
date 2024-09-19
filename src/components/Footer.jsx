@@ -1,3 +1,6 @@
+import mail from "./src/assets/mail.webp";
+import linkedIn from "./src/assets/linkedIn.webp";
+
 export default function Footer() {
   return (
     <footer className="footer">
@@ -5,12 +8,12 @@ export default function Footer() {
       <div className="contact-box">
         <div className="contact-row">
           <a href="mailto:Nikolinerholm@hotmail.com">
-            <img src="./src/assets/mail.webp" alt="mail"></img>
+            <img src={mail} alt="mail"></img>
           </a>
         </div>
         <div className="contact-row">
           <a href="https://www.linkedin.com/in/nikoline-holm-4a265328b">
-            <img src="./src/assets/linkedin.webp" alt="linkedin"></img>
+            <img src={linkedIn} alt="linkedin"></img>
           </a>
         </div>
       </div>
