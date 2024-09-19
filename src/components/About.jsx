@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import miget from "/src/assets/miget.JPG";
+import miget from "/src/assets/img0002.jpg";
 import migto from "/src/assets/migto.JPG";
 import migtrer from "/src/assets/migtrer.JPG";
 import migfire from "/src/assets/migfire.jpg";
