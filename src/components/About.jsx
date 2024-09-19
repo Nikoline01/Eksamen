@@ -1,12 +1,11 @@
 import { useState, useEffect } from "react";
+import miget from "/src/assets/miget.jpg";
+import migto from "/src/assets/migto.jpg";
+import migtrer from "/src/assets/migtrer.jpg";
+import migfire from "/src/assets/migfire.jpg";
 
 export default function AboutItem() {
-  const images = [
-    "./src/assets/miget.JPG",
-    "./src/assets/migto.JPG",
-    "./src/assets/migtrer.JPG",
-    "./src/assets/migfire.JPG",
-  ];
+  const images = [miget, migto, migtrer, migfire];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
