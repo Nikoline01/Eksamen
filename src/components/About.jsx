@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import miget from "/src/assets/img0002.jpg";
-import migto from "/src/assets/migto.JPG";
-import migtrer from "/src/assets/migtrer.JPG";
+import migto from "/src/assets/img0003.jpg";
+import migtrer from "/src/assets/img0024.jpg";
 import migfire from "/src/assets/migfire.jpg";
 
 export default function AboutItem() {
