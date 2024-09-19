@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import HOF from "/src/assets/HOF.png";
 import IS from "/src/assets/IS.png";
-import NIPPON from "/src/assets/Nippon.png";
+import NIPPON from "/src/assets/NIPPON.png";
 import MONK from "/src/assets/MONK.png";
 
 export default function CardsItem() {
